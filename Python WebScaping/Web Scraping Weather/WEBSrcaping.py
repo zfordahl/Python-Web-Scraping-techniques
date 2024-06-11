@@ -61,5 +61,5 @@ class weatherScraping:
 
 class main: 
     weather = weatherScraping()
-    weather.getGoogleWeather(weather.sessionBuilder(),"Stewartville,MN")
-    weather.getNationalWeather(weather.sessionBuilder(),"Stewartville","MN")
+    weather.getGoogleWeather(weather.sessionBuilder(),"Lacrosse,WI")
+    weather.getNationalWeather(weather.sessionBuilder(),"Dallas","TX")
